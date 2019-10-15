@@ -4,11 +4,29 @@ using System.Collections;
 public class PlayerController : MonoBehaviour
 {
 
-    float speed = 3.0f;
+    public float speed;
 
     void Update()
     {
-        var move = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0);
-        transform.position += move * speed * Time.deltaTime;
+
+        if (Input.GetKey(KeyCode.D))
+        {
+            transform.Translate(Vector2.right * speed);
+        }
+
+        else if (Input.GetKey(KeyCode.A))
+        {
+            transform.Translate(Vector2.left * speed);
+        }
+
+        else if (Input.GetKey(KeyCode.S))
+        {
+            transform.Translate(Vector2.down * speed);
+        }
+
+        else if (Input.GetKey(KeyCode.W))
+        {
+            transform.Translate(Vector2.up * speed);
+        }
     }
 }
