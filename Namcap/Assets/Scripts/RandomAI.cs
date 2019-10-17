@@ -41,6 +41,10 @@ public class RandomAI : MonoBehaviour
             oldDirection = curDirection;
             curDirection = Random.Range(0, 4);
         }
+        if (col.gameObject.tag == "Player")
+        {
+            Destroy(col.gameObject);
+        }
         while (curDirection == oldDirection)
         {
             curDirection = Random.Range(0, 4);
@@ -48,6 +52,7 @@ public class RandomAI : MonoBehaviour
         getRandom(curDirection);
         Debug.Log(curDirection);
     }
+
     private void Update()
     {
         timeLeft -= Time.deltaTime;
