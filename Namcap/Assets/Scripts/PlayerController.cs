@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -22,9 +23,9 @@ public class PlayerController : MonoBehaviour
     
         if (other.gameObject.tag == "Exit")
         {
-            if (keysCollected == 2)
+            if (GameObject.FindWithTag("Key") == null)
             {
-                //SceneManager.LoadScene();
+                SceneManager.LoadScene("TestScene2", LoadSceneMode.Single);
             }
         }
     }
