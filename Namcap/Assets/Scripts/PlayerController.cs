@@ -20,7 +20,7 @@ public class PlayerController : MonoBehaviour
             Destroy(other.gameObject);
         }
     
-        if (other.gameObject.tag == "Ladder")
+        if (other.gameObject.tag == "Exit")
         {
             if (keysCollected == 2)
             {
