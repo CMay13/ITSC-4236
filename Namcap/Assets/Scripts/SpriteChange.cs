@@ -13,7 +13,7 @@ public class SpriteChange : MonoBehaviour
         render = GetComponent<SpriteRenderer>();
         entrance = Resources.Load<Sprite>("Entrance");
         exit = Resources.Load<Sprite>("Exit");
-        render.sprite = entrance;
+        //render.sprite = entrance;
     }
 
     // Update is called once per frame

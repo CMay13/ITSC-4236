@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 public class PlayerController : MonoBehaviour
 {
     public float speed;
-    public int keysCollected;
 
     void Start()
     {
@@ -17,7 +16,6 @@ public class PlayerController : MonoBehaviour
         if (other.gameObject.tag == "Key")
         {
             Debug.Log("Collected key!");
-            keysCollected++;
             Destroy(other.gameObject);
         }
     
