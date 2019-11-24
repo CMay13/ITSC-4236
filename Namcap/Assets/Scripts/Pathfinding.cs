@@ -29,10 +29,9 @@ public class Pathfinding : MonoBehaviour {
                 if (OpenList[i].FCost < CurrentNode.FCost || OpenList[i].FCost == CurrentNode.FCost && OpenList[i].hCost < CurrentNode.hCost) {
                     CurrentNode = OpenList[i];
                 }
-                OpenList.Remove(CurrentNode);
-                ClosedList.Add(CurrentNode);
             }
-
+            OpenList.Remove(CurrentNode);
+            ClosedList.Add(CurrentNode);
             if (CurrentNode == TargetNode) {
                 GetPath(StartNode, TargetNode);
                 break;
