@@ -130,6 +130,7 @@ GameObject:
   m_Component:
   - component: {fileID: 35703274}
   - component: {fileID: 35703275}
+  - component: {fileID: 35703276}
   m_Layer: 0
   m_Name: Maze_Part (21)
   m_TagString: Untagged
@@ -200,6 +201,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!61 &35703276
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 35703273}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 1
+  m_Offset: {x: 0.5, y: -0.5}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 1}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 2
+    adaptiveTiling: 0
+  m_AutoTiling: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &89069045
 GameObject:
   m_ObjectHideFlags: 0
@@ -210,6 +237,7 @@ GameObject:
   m_Component:
   - component: {fileID: 89069047}
   - component: {fileID: 89069046}
+  - component: {fileID: 89069048}
   m_Layer: 0
   m_Name: South
   m_TagString: Untagged
@@ -280,6 +308,32 @@ Transform:
   m_Father: {fileID: 153682430}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &89069048
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 89069045}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 1
+  m_Offset: {x: 0.5, y: -0.5}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 1}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 14, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 2
+    adaptiveTiling: 0
+  m_AutoTiling: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &153682429
 GameObject:
   m_ObjectHideFlags: 0
@@ -400,7 +454,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 0284869b9548bb84bab8405e669b0cfd, type: 3}
 --- !u!4 &193986278 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 5099210923321161132, guid: 0284869b9548bb84bab8405e669b0cfd,
+  m_CorrespondingSourceObject: {fileID: 4864519463359722077, guid: 0284869b9548bb84bab8405e669b0cfd,
     type: 3}
   m_PrefabInstance: {fileID: 193986277}
   m_PrefabAsset: {fileID: 0}
@@ -490,7 +544,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 0284869b9548bb84bab8405e669b0cfd, type: 3}
 --- !u!4 &235781899 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 5099210923321161132, guid: 0284869b9548bb84bab8405e669b0cfd,
+  m_CorrespondingSourceObject: {fileID: 4864519463359722077, guid: 0284869b9548bb84bab8405e669b0cfd,
     type: 3}
   m_PrefabInstance: {fileID: 235781898}
   m_PrefabAsset: {fileID: 0}
@@ -504,6 +558,7 @@ GameObject:
   m_Component:
   - component: {fileID: 351609530}
   - component: {fileID: 351609531}
+  - component: {fileID: 351609532}
   m_Layer: 0
   m_Name: Maze_Part (13)
   m_TagString: Untagged
@@ -574,6 +629,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!61 &351609532
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 351609529}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 1
+  m_Offset: {x: 0.5, y: -0.5}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 1}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 3, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 2
+    adaptiveTiling: 0
+  m_AutoTiling: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &364950039
 GameObject:
   m_ObjectHideFlags: 0
@@ -584,6 +665,7 @@ GameObject:
   m_Component:
   - component: {fileID: 364950040}
   - component: {fileID: 364950041}
+  - component: {fileID: 364950042}
   m_Layer: 0
   m_Name: Maze_Part (3)
   m_TagString: Untagged
@@ -654,6 +736,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!61 &364950042
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364950039}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 1
+  m_Offset: {x: 0.5, y: -0.5}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 1}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 2
+    adaptiveTiling: 0
+  m_AutoTiling: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &366071784
 GameObject:
   m_ObjectHideFlags: 0
@@ -664,6 +772,7 @@ GameObject:
   m_Component:
   - component: {fileID: 366071785}
   - component: {fileID: 366071786}
+  - component: {fileID: 366071787}
   m_Layer: 0
   m_Name: Maze_Part (16)
   m_TagString: Untagged
@@ -734,6 +843,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!61 &366071787
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366071784}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 1
+  m_Offset: {x: 0.5, y: -0.5}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 1}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 2
+    adaptiveTiling: 0
+  m_AutoTiling: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &391087711
 GameObject:
   m_ObjectHideFlags: 0
@@ -744,6 +879,7 @@ GameObject:
   m_Component:
   - component: {fileID: 391087712}
   - component: {fileID: 391087713}
+  - component: {fileID: 391087714}
   m_Layer: 0
   m_Name: Maze_Part (17)
   m_TagString: Untagged
@@ -814,6 +950,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!61 &391087714
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391087711}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 1
+  m_Offset: {x: 0.5, y: -0.5}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 1}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 2
+    adaptiveTiling: 0
+  m_AutoTiling: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1001 &413967472
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -900,7 +1062,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 0284869b9548bb84bab8405e669b0cfd, type: 3}
 --- !u!4 &413967473 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 5099210923321161132, guid: 0284869b9548bb84bab8405e669b0cfd,
+  m_CorrespondingSourceObject: {fileID: 4864519463359722077, guid: 0284869b9548bb84bab8405e669b0cfd,
     type: 3}
   m_PrefabInstance: {fileID: 413967472}
   m_PrefabAsset: {fileID: 0}
@@ -948,6 +1110,7 @@ GameObject:
   m_Component:
   - component: {fileID: 490583598}
   - component: {fileID: 490583599}
+  - component: {fileID: 490583600}
   m_Layer: 0
   m_Name: Maze_Part (9)
   m_TagString: Untagged
@@ -1018,6 +1181,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!61 &490583600
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 490583597}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 1
+  m_Offset: {x: 0.5, y: -0.5}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 1}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 2
+    adaptiveTiling: 0
+  m_AutoTiling: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &492205222
 GameObject:
   m_ObjectHideFlags: 0
@@ -1028,6 +1217,7 @@ GameObject:
   m_Component:
   - component: {fileID: 492205223}
   - component: {fileID: 492205224}
+  - component: {fileID: 492205225}
   m_Layer: 0
   m_Name: Maze_Part (1)
   m_TagString: Untagged
@@ -1098,6 +1288,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!61 &492205225
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 492205222}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 1
+  m_Offset: {x: 0.5, y: -0.5}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 1}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 2
+    adaptiveTiling: 0
+  m_AutoTiling: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &648901611
 GameObject:
   m_ObjectHideFlags: 0
@@ -1108,6 +1324,7 @@ GameObject:
   m_Component:
   - component: {fileID: 648901612}
   - component: {fileID: 648901613}
+  - component: {fileID: 648901614}
   m_Layer: 0
   m_Name: Maze_Part (12)
   m_TagString: Untagged
@@ -1178,6 +1395,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!61 &648901614
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 648901611}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 1
+  m_Offset: {x: 0.5, y: -0.5}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 1}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 2
+    adaptiveTiling: 0
+  m_AutoTiling: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &675085218
 GameObject:
   m_ObjectHideFlags: 0
@@ -1188,6 +1431,7 @@ GameObject:
   m_Component:
   - component: {fileID: 675085219}
   - component: {fileID: 675085220}
+  - component: {fileID: 675085221}
   m_Layer: 0
   m_Name: Maze_Part (8)
   m_TagString: Untagged
@@ -1258,6 +1502,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!61 &675085221
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 675085218}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 1
+  m_Offset: {x: 0.5, y: -0.5}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 1}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 2
+    adaptiveTiling: 0
+  m_AutoTiling: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1001 &753777277
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1334,7 +1604,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 87265839755d5364ca149324d31ffb57, type: 3}
 --- !u!4 &753777278 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 4599496319100124725, guid: 87265839755d5364ca149324d31ffb57,
+  m_CorrespondingSourceObject: {fileID: 9168029487412248059, guid: 87265839755d5364ca149324d31ffb57,
     type: 3}
   m_PrefabInstance: {fileID: 753777277}
   m_PrefabAsset: {fileID: 0}
@@ -1410,7 +1680,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1153809748
 GameObject:
@@ -1422,6 +1692,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1153809749}
   - component: {fileID: 1153809750}
+  - component: {fileID: 1153809751}
   m_Layer: 0
   m_Name: Maze_Part (19)
   m_TagString: Untagged
@@ -1492,6 +1763,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!61 &1153809751
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153809748}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 1
+  m_Offset: {x: 0.5, y: -0.5}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 1}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 3, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 2
+    adaptiveTiling: 0
+  m_AutoTiling: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1001 &1155205788
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1568,7 +1865,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 87265839755d5364ca149324d31ffb57, type: 3}
 --- !u!4 &1155205789 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 4599496319100124725, guid: 87265839755d5364ca149324d31ffb57,
+  m_CorrespondingSourceObject: {fileID: 9168029487412248059, guid: 87265839755d5364ca149324d31ffb57,
     type: 3}
   m_PrefabInstance: {fileID: 1155205788}
   m_PrefabAsset: {fileID: 0}
@@ -1582,6 +1879,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1181095354}
   - component: {fileID: 1181095353}
+  - component: {fileID: 1181095355}
   m_Layer: 0
   m_Name: West
   m_TagString: Untagged
@@ -1652,6 +1950,32 @@ Transform:
   m_Father: {fileID: 153682430}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1181095355
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1181095352}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 1
+  m_Offset: {x: 0.5, y: -0.5}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 1}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 12}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 2
+    adaptiveTiling: 0
+  m_AutoTiling: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1001 &1184648610
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1761,6 +2085,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1202402219}
   - component: {fileID: 1202402220}
+  - component: {fileID: 1202402221}
   m_Layer: 0
   m_Name: Maze_Part (6)
   m_TagString: Untagged
@@ -1831,6 +2156,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!61 &1202402221
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202402218}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 1
+  m_Offset: {x: 0.5, y: -0.5}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 1}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 2
+    adaptiveTiling: 0
+  m_AutoTiling: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1216851716
 GameObject:
   m_ObjectHideFlags: 0
@@ -1841,6 +2192,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1216851717}
   - component: {fileID: 1216851718}
+  - component: {fileID: 1216851719}
   m_Layer: 0
   m_Name: Maze_Part (10)
   m_TagString: Untagged
@@ -1911,6 +2263,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!61 &1216851719
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216851716}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 1
+  m_Offset: {x: 0.5, y: -0.5}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 1}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 2
+    adaptiveTiling: 0
+  m_AutoTiling: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1230423746
 GameObject:
   m_ObjectHideFlags: 0
@@ -1921,6 +2299,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1230423747}
   - component: {fileID: 1230423748}
+  - component: {fileID: 1230423749}
   m_Layer: 0
   m_Name: Maze_Part (20)
   m_TagString: Untagged
@@ -1991,6 +2370,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!61 &1230423749
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1230423746}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 1
+  m_Offset: {x: 0.5, y: -0.5}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 1}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 3, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 2
+    adaptiveTiling: 0
+  m_AutoTiling: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1231977770
 GameObject:
   m_ObjectHideFlags: 0
@@ -2001,6 +2406,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1231977771}
   - component: {fileID: 1231977772}
+  - component: {fileID: 1231977773}
   m_Layer: 0
   m_Name: Maze_Part (2)
   m_TagString: Untagged
@@ -2071,6 +2477,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!61 &1231977773
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1231977770}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 1
+  m_Offset: {x: 0.5, y: -0.5}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 1}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 2
+    adaptiveTiling: 0
+  m_AutoTiling: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1278173271
 GameObject:
   m_ObjectHideFlags: 0
@@ -2115,6 +2547,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1280104037}
   - component: {fileID: 1280104038}
+  - component: {fileID: 1280104039}
   m_Layer: 0
   m_Name: Maze_Part (18)
   m_TagString: Untagged
@@ -2185,6 +2618,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!61 &1280104039
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280104036}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 1
+  m_Offset: {x: 0.5, y: -0.5}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 1}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 2, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 2
+    adaptiveTiling: 0
+  m_AutoTiling: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1001 &1282227308
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2284,6 +2743,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1294147170}
   - component: {fileID: 1294147171}
+  - component: {fileID: 1294147172}
   m_Layer: 0
   m_Name: Maze_Part (15)
   m_TagString: Untagged
@@ -2354,6 +2814,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!61 &1294147172
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1294147169}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 1
+  m_Offset: {x: 0.5, y: -0.5}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 1}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 3, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 2
+    adaptiveTiling: 0
+  m_AutoTiling: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1325868463
 GameObject:
   m_ObjectHideFlags: 0
@@ -2364,6 +2850,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1325868464}
   - component: {fileID: 1325868465}
+  - component: {fileID: 1325868466}
   m_Layer: 0
   m_Name: Maze_Part (14)
   m_TagString: Untagged
@@ -2434,6 +2921,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!61 &1325868466
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1325868463}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 1
+  m_Offset: {x: 0.5, y: -0.5}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 1}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 2, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 2
+    adaptiveTiling: 0
+  m_AutoTiling: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1368159590
 GameObject:
   m_ObjectHideFlags: 0
@@ -2512,7 +3025,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1396421306
 GameObject:
@@ -2524,6 +3037,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1396421307}
   - component: {fileID: 1396421308}
+  - component: {fileID: 1396421309}
   m_Layer: 0
   m_Name: Maze_Part (22)
   m_TagString: Untagged
@@ -2594,6 +3108,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!61 &1396421309
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1396421306}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 1
+  m_Offset: {x: 0.5, y: -0.5}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 1}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 2
+    adaptiveTiling: 0
+  m_AutoTiling: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1430462863
 GameObject:
   m_ObjectHideFlags: 0
@@ -2604,6 +3144,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1430462864}
   - component: {fileID: 1430462865}
+  - component: {fileID: 1430462866}
   m_Layer: 0
   m_Name: Maze_Part (5)
   m_TagString: Untagged
@@ -2674,6 +3215,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!61 &1430462866
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1430462863}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 1
+  m_Offset: {x: 0.5, y: -0.5}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 1}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 2
+    adaptiveTiling: 0
+  m_AutoTiling: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1562483310
 GameObject:
   m_ObjectHideFlags: 0
@@ -2684,6 +3251,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1562483311}
   - component: {fileID: 1562483312}
+  - component: {fileID: 1562483313}
   m_Layer: 0
   m_Name: Maze_Part (11)
   m_TagString: Untagged
@@ -2754,6 +3322,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!61 &1562483313
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1562483310}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 1
+  m_Offset: {x: 0.5, y: -0.5}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 1}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 2
+    adaptiveTiling: 0
+  m_AutoTiling: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1633578559
 GameObject:
   m_ObjectHideFlags: 0
@@ -2764,6 +3358,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1633578560}
   - component: {fileID: 1633578561}
+  - component: {fileID: 1633578562}
   m_Layer: 0
   m_Name: Maze_Part (7)
   m_TagString: Untagged
@@ -2834,6 +3429,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!61 &1633578562
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1633578559}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 1
+  m_Offset: {x: 0.5, y: -0.5}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 1}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 2
+    adaptiveTiling: 0
+  m_AutoTiling: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1773147314
 GameObject:
   m_ObjectHideFlags: 0
@@ -2896,6 +3517,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1778913962}
   - component: {fileID: 1778913963}
+  - component: {fileID: 1778913964}
   m_Layer: 0
   m_Name: Maze_Part (4)
   m_TagString: Untagged
@@ -2966,6 +3588,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!61 &1778913964
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778913961}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 1
+  m_Offset: {x: 0.5, y: -0.5}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 1}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 2
+    adaptiveTiling: 0
+  m_AutoTiling: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1001 &1861015952
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3042,7 +3690,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 87265839755d5364ca149324d31ffb57, type: 3}
 --- !u!4 &1861015953 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 4599496319100124725, guid: 87265839755d5364ca149324d31ffb57,
+  m_CorrespondingSourceObject: {fileID: 9168029487412248059, guid: 87265839755d5364ca149324d31ffb57,
     type: 3}
   m_PrefabInstance: {fileID: 1861015952}
   m_PrefabAsset: {fileID: 0}
@@ -3056,6 +3704,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2006833108}
   - component: {fileID: 2006833107}
+  - component: {fileID: 2006833109}
   m_Layer: 0
   m_Name: East
   m_TagString: Untagged
@@ -3126,6 +3775,32 @@ Transform:
   m_Father: {fileID: 153682430}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2006833109
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2006833106}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 1
+  m_Offset: {x: 0.5, y: -0.5}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 1}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 12}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 2
+    adaptiveTiling: 0
+  m_AutoTiling: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &2114392790
 GameObject:
   m_ObjectHideFlags: 0
@@ -3136,6 +3811,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2114392792}
   - component: {fileID: 2114392791}
+  - component: {fileID: 2114392793}
   m_Layer: 0
   m_Name: North
   m_TagString: Untagged
@@ -3206,6 +3882,32 @@ Transform:
   m_Father: {fileID: 153682430}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2114392793
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2114392790}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 1
+  m_Offset: {x: 0.5, y: -0.5}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 1}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 13, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 2
+    adaptiveTiling: 0
+  m_AutoTiling: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1001 &2126090371
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3292,7 +3994,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 0284869b9548bb84bab8405e669b0cfd, type: 3}
 --- !u!4 &2126090372 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 5099210923321161132, guid: 0284869b9548bb84bab8405e669b0cfd,
+  m_CorrespondingSourceObject: {fileID: 4864519463359722077, guid: 0284869b9548bb84bab8405e669b0cfd,
     type: 3}
   m_PrefabInstance: {fileID: 2126090371}
   m_PrefabAsset: {fileID: 0}
@@ -3372,7 +4074,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 87265839755d5364ca149324d31ffb57, type: 3}
 --- !u!4 &2136517628 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 4599496319100124725, guid: 87265839755d5364ca149324d31ffb57,
+  m_CorrespondingSourceObject: {fileID: 9168029487412248059, guid: 87265839755d5364ca149324d31ffb57,
     type: 3}
   m_PrefabInstance: {fileID: 2136517627}
   m_PrefabAsset: {fileID: 0}
