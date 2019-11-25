@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 35703274}
   - component: {fileID: 35703275}
   - component: {fileID: 35703276}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Maze_Part (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -238,7 +238,7 @@ GameObject:
   - component: {fileID: 89069047}
   - component: {fileID: 89069046}
   - component: {fileID: 89069048}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: South
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -553,7 +553,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 153682430}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Borders
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -689,7 +689,7 @@ GameObject:
   - component: {fileID: 351609530}
   - component: {fileID: 351609531}
   - component: {fileID: 351609532}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Maze_Part (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -796,7 +796,7 @@ GameObject:
   - component: {fileID: 364950040}
   - component: {fileID: 364950041}
   - component: {fileID: 364950042}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Maze_Part (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -903,7 +903,7 @@ GameObject:
   - component: {fileID: 366071785}
   - component: {fileID: 366071786}
   - component: {fileID: 366071787}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Maze_Part (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1010,7 +1010,7 @@ GameObject:
   - component: {fileID: 391087712}
   - component: {fileID: 391087713}
   - component: {fileID: 391087714}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Maze_Part (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1251,7 +1251,7 @@ GameObject:
   - component: {fileID: 490583598}
   - component: {fileID: 490583599}
   - component: {fileID: 490583600}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Maze_Part (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1358,7 +1358,7 @@ GameObject:
   - component: {fileID: 492205223}
   - component: {fileID: 492205224}
   - component: {fileID: 492205225}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Maze_Part (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1454,6 +1454,75 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1001 &553013255
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5466529336051880767, guid: db3f513a976164c47bc7a8ad468cb725,
+        type: 3}
+      propertyPath: m_Name
+      value: PathManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 3576070244481741615, guid: db3f513a976164c47bc7a8ad468cb725,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3576070244481741615, guid: db3f513a976164c47bc7a8ad468cb725,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3576070244481741615, guid: db3f513a976164c47bc7a8ad468cb725,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3576070244481741615, guid: db3f513a976164c47bc7a8ad468cb725,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3576070244481741615, guid: db3f513a976164c47bc7a8ad468cb725,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3576070244481741615, guid: db3f513a976164c47bc7a8ad468cb725,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3576070244481741615, guid: db3f513a976164c47bc7a8ad468cb725,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3576070244481741615, guid: db3f513a976164c47bc7a8ad468cb725,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3576070244481741615, guid: db3f513a976164c47bc7a8ad468cb725,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3576070244481741615, guid: db3f513a976164c47bc7a8ad468cb725,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3576070244481741615, guid: db3f513a976164c47bc7a8ad468cb725,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: db3f513a976164c47bc7a8ad468cb725, type: 3}
 --- !u!1 &648901611
 GameObject:
   m_ObjectHideFlags: 0
@@ -1465,7 +1534,7 @@ GameObject:
   - component: {fileID: 648901612}
   - component: {fileID: 648901613}
   - component: {fileID: 648901614}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Maze_Part (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1572,7 +1641,7 @@ GameObject:
   - component: {fileID: 675085219}
   - component: {fileID: 675085220}
   - component: {fileID: 675085221}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Maze_Part (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1999,7 +2068,7 @@ GameObject:
   - component: {fileID: 1153809749}
   - component: {fileID: 1153809750}
   - component: {fileID: 1153809751}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Maze_Part (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2106,7 +2175,7 @@ GameObject:
   - component: {fileID: 1181095354}
   - component: {fileID: 1181095353}
   - component: {fileID: 1181095355}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: West
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2213,7 +2282,7 @@ GameObject:
   - component: {fileID: 1202402219}
   - component: {fileID: 1202402220}
   - component: {fileID: 1202402221}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Maze_Part (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2320,7 +2389,7 @@ GameObject:
   - component: {fileID: 1216851717}
   - component: {fileID: 1216851718}
   - component: {fileID: 1216851719}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Maze_Part (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2427,7 +2496,7 @@ GameObject:
   - component: {fileID: 1230423747}
   - component: {fileID: 1230423748}
   - component: {fileID: 1230423749}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Maze_Part (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2534,7 +2603,7 @@ GameObject:
   - component: {fileID: 1231977771}
   - component: {fileID: 1231977772}
   - component: {fileID: 1231977773}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Maze_Part (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2675,7 +2744,7 @@ GameObject:
   - component: {fileID: 1280104037}
   - component: {fileID: 1280104038}
   - component: {fileID: 1280104039}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Maze_Part (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2881,7 +2950,7 @@ GameObject:
   - component: {fileID: 1294147170}
   - component: {fileID: 1294147171}
   - component: {fileID: 1294147172}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Maze_Part (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2988,7 +3057,7 @@ GameObject:
   - component: {fileID: 1325868464}
   - component: {fileID: 1325868465}
   - component: {fileID: 1325868466}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Maze_Part (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3175,7 +3244,7 @@ GameObject:
   - component: {fileID: 1396421307}
   - component: {fileID: 1396421308}
   - component: {fileID: 1396421309}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Maze_Part (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3282,7 +3351,7 @@ GameObject:
   - component: {fileID: 1430462864}
   - component: {fileID: 1430462865}
   - component: {fileID: 1430462866}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Maze_Part (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3389,7 +3458,7 @@ GameObject:
   - component: {fileID: 1562483311}
   - component: {fileID: 1562483312}
   - component: {fileID: 1562483313}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Maze_Part (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3496,7 +3565,7 @@ GameObject:
   - component: {fileID: 1633578560}
   - component: {fileID: 1633578561}
   - component: {fileID: 1633578562}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Maze_Part (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3601,7 +3670,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1773147315}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Maze
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3655,7 +3724,7 @@ GameObject:
   - component: {fileID: 1778913962}
   - component: {fileID: 1778913963}
   - component: {fileID: 1778913964}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Maze_Part (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3952,7 +4021,7 @@ GameObject:
   - component: {fileID: 2006833108}
   - component: {fileID: 2006833107}
   - component: {fileID: 2006833109}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: East
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4169,7 +4238,7 @@ GameObject:
   - component: {fileID: 2114392792}
   - component: {fileID: 2114392791}
   - component: {fileID: 2114392793}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: North
   m_TagString: Untagged
   m_Icon: {fileID: 0}
