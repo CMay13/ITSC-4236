@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using System.Collections;
-using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -17,14 +16,6 @@ public class PlayerController : MonoBehaviour
         {
             Debug.Log("Collected key!");
             Destroy(other.gameObject);
-        }
-    
-        if (other.gameObject.tag == "Exit")
-        {
-            if (GameObject.FindWithTag("Key") == null)
-            {
-                SceneManager.LoadScene("TestScene2", LoadSceneMode.Single);
-            }
         }
     }
 
