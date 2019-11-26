@@ -127,6 +127,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 490416636}
     m_Modifications:
+    - target: {fileID: 2137327919756751847, guid: 08ad4eee807555848b6ea4131686ab8c,
+        type: 3}
+      propertyPath: m_Name
+      value: FollowEnemy
+      objectReference: {fileID: 0}
     - target: {fileID: 1400000032820735058, guid: 08ad4eee807555848b6ea4131686ab8c,
         type: 3}
       propertyPath: grid
@@ -136,11 +141,6 @@ PrefabInstance:
         type: 3}
       propertyPath: EnemySpeed
       value: 0.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 2137327919756751847, guid: 08ad4eee807555848b6ea4131686ab8c,
-        type: 3}
-      propertyPath: m_Name
-      value: FollowEnemy
       objectReference: {fileID: 0}
     - target: {fileID: 2137327919016313158, guid: 08ad4eee807555848b6ea4131686ab8c,
         type: 3}
@@ -896,7 +896,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 429881778}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Objectives
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -967,6 +967,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Potato (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9168029487353113918, guid: 87265839755d5364ca149324d31ffb57,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 4599496317910246832, guid: 87265839755d5364ca149324d31ffb57,
         type: 3}
@@ -2030,6 +2035,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Potato (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 9168029487353113918, guid: 87265839755d5364ca149324d31ffb57,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 4599496317910246832, guid: 87265839755d5364ca149324d31ffb57,
         type: 3}
       propertyPath: m_Name
@@ -2365,6 +2375,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Potato (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9168029487353113918, guid: 87265839755d5364ca149324d31ffb57,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 4599496317910246832, guid: 87265839755d5364ca149324d31ffb57,
         type: 3}
@@ -3043,6 +3058,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Potato (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 9168029487353113918, guid: 87265839755d5364ca149324d31ffb57,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 4599496317910246832, guid: 87265839755d5364ca149324d31ffb57,
         type: 3}
       propertyPath: m_Name
@@ -3386,6 +3406,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Potato (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9168029487353113918, guid: 87265839755d5364ca149324d31ffb57,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 4599496317910246832, guid: 87265839755d5364ca149324d31ffb57,
         type: 3}
@@ -3793,6 +3818,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Potato (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9168029487353113918, guid: 87265839755d5364ca149324d31ffb57,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 4599496317910246832, guid: 87265839755d5364ca149324d31ffb57,
         type: 3}
@@ -4418,6 +4448,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Potato (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9168029487353113918, guid: 87265839755d5364ca149324d31ffb57,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 4599496317910246832, guid: 87265839755d5364ca149324d31ffb57,
         type: 3}
@@ -5090,6 +5125,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Potato (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 9168029487353113918, guid: 87265839755d5364ca149324d31ffb57,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 4599496317910246832, guid: 87265839755d5364ca149324d31ffb57,
         type: 3}
       propertyPath: m_Name
@@ -5736,6 +5776,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: PathManager
       objectReference: {fileID: 0}
+    - target: {fileID: 7334347455207434123, guid: db3f513a976164c47bc7a8ad468cb725,
+        type: 3}
+      propertyPath: nodeRadius
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7334347455207434123, guid: db3f513a976164c47bc7a8ad468cb725,
+        type: 3}
+      propertyPath: Potetoooo.m_Bits
+      value: 2048
+      objectReference: {fileID: 0}
     - target: {fileID: 3576070244481741615, guid: db3f513a976164c47bc7a8ad468cb725,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5790,11 +5840,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7334347455207434123, guid: db3f513a976164c47bc7a8ad468cb725,
-        type: 3}
-      propertyPath: nodeRadius
-      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8177719876012636461, guid: db3f513a976164c47bc7a8ad468cb725,
         type: 3}

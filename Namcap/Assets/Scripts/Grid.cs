@@ -5,6 +5,7 @@ using UnityEngine;
 public class Grid : MonoBehaviour
 {
     public LayerMask WallMask;//what layer are obstacles?
+    public LayerMask Potetoooo;
     public Vector2 gridWorldSize;//How big grid?
     public float nodeRadius;//how big node?
     public float Distance;//how far node from node
@@ -34,7 +35,12 @@ public class Grid : MonoBehaviour
                 {
                     Wall = true;
                 }
-                grid[x, y] = new Node(Wall, worldPoint, x, y);
+                bool potato = false;
+                if (Physics2D.OverlapCircle(worldPoint,nodeRadius,Potetoooo))
+                {
+                    potato = true;
+                }
+                grid[x, y] = new Node(Wall,potato, worldPoint, x, y);
             }
         }
     }
@@ -105,10 +111,15 @@ public class Grid : MonoBehaviour
                 {
                     Gizmos.color = Color.red;
                 }
+                else if(n.IsPotato)
+                {
+                    Gizmos.color = Color.green;
+                }
                 else
                 {
                     Gizmos.color = Color.yellow;
                 }
+
 
                 if (Path != null)
                 {

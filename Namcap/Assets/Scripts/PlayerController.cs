@@ -45,7 +45,7 @@ public class PlayerController : MonoBehaviour
     public void Respawn()
     {
         Debug.Log("Respawned");
-        Instantiate(playerPrefab, respawnPoint, Quaternion.identity);
+        transform.position = respawnPoint;
     }
 
     void Update()

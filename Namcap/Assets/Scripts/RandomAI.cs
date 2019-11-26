@@ -41,10 +41,6 @@ public class RandomAI : MonoBehaviour
             oldDirection = curDirection;
             curDirection = Random.Range(0, 4);
         }
-        if (col.gameObject.tag == "Player")
-        {
-            Destroy(col.gameObject);
-        }
         while (curDirection == oldDirection)
         {
             curDirection = Random.Range(0, 4);
