@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Interludes/Spring.unity
     guid: 78aa36474609b2943ac38af129e0f1f3
+  - enabled: 1
+    path: Assets/Scenes/Menus/Game Over.unity
+    guid: da23b746627b60746b4f5824044bfc17
   m_configObjects: {}

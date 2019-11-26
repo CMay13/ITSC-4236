@@ -5,8 +5,15 @@ public class PlayerController : MonoBehaviour
 {
     public float speed;
 
-    public Transform respawnPoint;
+    public Vector3 respawnPoint;
 
+    public GameObject playerPrefab;
+
+    public void Start()
+    {
+        respawnPoint = new Vector3(-7, 5, 0);
+        playerPrefab = Resources.Load("Player") as GameObject;
+    }
     public void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.tag == "Key")
@@ -16,26 +23,29 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    void OnCollisionEnter2D(Collision2D other)
+    public void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.tag == "Enemy")
         {
-            GameManager.lives -= 1;
+            GameController.lives -= 1;
+            Debug.Log("Lives remaining: " + GameController.lives);
 
-            if (GameManager.lives <= 0)
-            {
-                Destroy(gameObject);
-            }
-            else
+            if (GameController.lives > 0)
             {
                 Respawn();
+            }
+            else if (GameController.lives == 0)
+            {
+                Debug.Log("Game Over");
+                Destroy(this.gameObject);
             }
         }
     }
 
     public void Respawn()
     {
-        this.transform.position = respawnPoint.transform.position;
+        Debug.Log("Respawned");
+        Instantiate(playerPrefab, respawnPoint, Quaternion.identity);
     }
 
     void Update()

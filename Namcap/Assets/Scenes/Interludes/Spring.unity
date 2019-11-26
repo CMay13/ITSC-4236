@@ -759,7 +759,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'You have survived the long winter.  EAting nothing but those potatoes.
+  m_text: 'You have survived the long winter,  eating nothing but those potatoes.
 
 
     The turkeys are gone.  You can continue to enjoy life until the next winter.'
