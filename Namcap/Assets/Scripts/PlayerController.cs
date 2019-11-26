@@ -5,10 +5,7 @@ public class PlayerController : MonoBehaviour
 {
     public float speed;
 
-    void Start()
-    {
-
-    }
+    public Transform respawnPoint;
 
     public void OnTriggerEnter2D(Collider2D other)
     {
@@ -23,8 +20,22 @@ public class PlayerController : MonoBehaviour
     {
         if (other.gameObject.tag == "Enemy")
         {
-            Destroy(gameObject);
+            GameManager.lives -= 1;
+
+            if (GameManager.lives <= 0)
+            {
+                Destroy(gameObject);
+            }
+            else
+            {
+                Respawn();
+            }
         }
+    }
+
+    public void Respawn()
+    {
+        this.transform.position = respawnPoint.transform.position;
     }
 
     void Update()
