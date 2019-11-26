@@ -9,12 +9,24 @@ EditorBuildSettings:
     path: Assets/Scenes/Menus/Main Menu.unity
     guid: c6f774954c885a6489e15a316e0dfce8
   - enabled: 1
+    path: Assets/Scenes/Interludes/Summer.unity
+    guid: d2ec722406c8b2f46b5f85591da0e9d3
+  - enabled: 1
     path: Assets/Scenes/Levels/1-Summer.unity
     guid: 85827bbd9770d6f4d921a782c6be2b37
+  - enabled: 1
+    path: Assets/Scenes/Interludes/Fall.unity
+    guid: 5e236b1d22d065c4c9306e161da4c424
   - enabled: 1
     path: Assets/Scenes/Levels/2-Fall.unity
     guid: fe2cde49521daac49b2629b5d101b7d1
   - enabled: 1
+    path: Assets/Scenes/Interludes/Winter.unity
+    guid: a16a47c276b66304497dbb8e70cce818
+  - enabled: 1
     path: Assets/Scenes/Levels/3-Winter.unity
     guid: a56a1b244f6cbb641a04469b92cc4e21
+  - enabled: 1
+    path: Assets/Scenes/Interludes/Spring.unity
+    guid: 78aa36474609b2943ac38af129e0f1f3
   m_configObjects: {}

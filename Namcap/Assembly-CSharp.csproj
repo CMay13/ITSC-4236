@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\DoorController.cs" />
     <Compile Include="Assets\Scripts\EnemyMovementCore.cs" />
     <Compile Include="Assets\Scripts\Grid.cs" />
+    <Compile Include="Assets\Scripts\Interlude.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Node.cs" />
     <Compile Include="Assets\Scripts\Pathfinding.cs" />
@@ -126,37 +127,37 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>F:/Namcap/ITSC-4236/Namcap/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/Vincent-Laptop/Documents/GitHub/ITSC-4236/Namcap/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>F:/Namcap/ITSC-4236/Namcap/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/Vincent-Laptop/Documents/GitHub/ITSC-4236/Namcap/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>F:/Namcap/ITSC-4236/Namcap/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Vincent-Laptop/Documents/GitHub/ITSC-4236/Namcap/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>F:/Namcap/ITSC-4236/Namcap/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/Vincent-Laptop/Documents/GitHub/ITSC-4236/Namcap/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>F:/Namcap/ITSC-4236/Namcap/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/Vincent-Laptop/Documents/GitHub/ITSC-4236/Namcap/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>F:/Namcap/ITSC-4236/Namcap/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/Vincent-Laptop/Documents/GitHub/ITSC-4236/Namcap/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>F:/Namcap/ITSC-4236/Namcap/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/Vincent-Laptop/Documents/GitHub/ITSC-4236/Namcap/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>F:/Namcap/ITSC-4236/Namcap/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>C:/Users/Vincent-Laptop/Documents/GitHub/ITSC-4236/Namcap/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>F:/Namcap/ITSC-4236/Namcap/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>C:/Users/Vincent-Laptop/Documents/GitHub/ITSC-4236/Namcap/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>F:/Namcap/ITSC-4236/Namcap/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/Vincent-Laptop/Documents/GitHub/ITSC-4236/Namcap/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>F:/Namcap/ITSC-4236/Namcap/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/Vincent-Laptop/Documents/GitHub/ITSC-4236/Namcap/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.7f2/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
